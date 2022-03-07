@@ -38,7 +38,8 @@ hr {
 .fa-brands,
 .fa-solid {
   color: #00fff7;
-  margin-right: 5px;
+  margin-right: 8px;
+  font-size: 1rem;
 }
 
 .container {
@@ -54,4 +55,45 @@ hr {
 .column {
   display: flex;
   flex-direction: column;
+}
+
+.card .container {
+  width: 500px;
+  padding: 3rem;
+}
+.card .container .column {
+  background-color: #14253d;
+  border-radius: 16px;
+  padding: 2rem;
+}
+.card .container .column .image img {
+  border-radius: 12px;
+  height: 400px;
+  width: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card .container .column .content {
+  padding: 1rem 0rem;
+}
+.card .container .column .content h1 {
+  margin-bottom: 1rem;
+}
+.card .container .column .content p {
+  margin-bottom: 1rem;
+  width: 90%;
+}
+.card .container .column .content .row {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.card .container .column .user .user-img {
+  margin-right: 1rem;
+}
+.card .container .column .user .user-img img {
+  width: 50px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 1rem 0rem;
 }/*# sourceMappingURL=style.css.map */

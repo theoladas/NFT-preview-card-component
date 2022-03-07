@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 // ### Primary
 // - Soft blue: hsl(215, 51%, 70%)
 // - Cyan: hsl(178, 100%, 50%)
@@ -41,18 +40,66 @@ hr {
 .fa-brands,
 .fa-solid {
   color: hsl(178, 100%, 50%);
-  margin-right: 5px;
+  margin-right: 8px;
+  font-size: 1rem;
 }
 .container {
   max-width: 1440px;
   width: 90%;
   margin: 0 auto;
 }
-
 .row {
   display: flex;
 }
 .column {
   display: flex;
   flex-direction: column;
+}
+
+// CARD
+.card {
+  .container {
+    width: 500px;
+    padding: 3rem;
+    .column {
+      background-color: hsl(216, 50%, 16%);
+      border-radius: 16px;
+      padding: 2rem;
+
+      .image {
+        img {
+          border-radius: 12px;
+          height: 400px;
+          width: 500px;
+          object-fit: cover;
+        }
+      }
+      .content {
+        padding: 1rem 0rem;
+        h1 {
+          margin-bottom: 1rem;
+        }
+        p {
+          margin-bottom: 1rem;
+          width: 90%;
+        }
+        .row {
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 0.5rem;
+        }
+      }
+      .user {
+        .user-img {
+          margin-right: 1rem;
+          img {
+            width: 50px;
+            border: 1px solid hsl(0, 0%, 100%);
+            border-radius: 50%;
+            margin: 1rem 0rem;
+          }
+        }
+      }
+    }
+  }
 }
