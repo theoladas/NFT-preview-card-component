@@ -18,15 +18,37 @@ body {
   font-size: 18px;
   background-color: hsl(217, 54%, 11%);
 }
-.container {
-  max-width: 1440px;
-  width: 90%;
-  margin: 0 auto;
+h1 {
+  color: hsl(0, 0%, 100%);
+}
+h4 {
+  color: hsl(178, 100%, 50%);
+}
+p {
+  color: hsl(215, 51%, 70%);
+  //   color: hsl(178, 100%, 50%);
+}
+span {
+  color: hsl(0, 0%, 100%);
 }
 img {
   max-width: 100%;
   height: auto;
 }
+hr {
+  border: 1px solid hsl(215, 32%, 27%);
+}
+.fa-brands,
+.fa-solid {
+  color: hsl(178, 100%, 50%);
+  margin-right: 5px;
+}
+.container {
+  max-width: 1440px;
+  width: 90%;
+  margin: 0 auto;
+}
+
 .row {
   display: flex;
 }
