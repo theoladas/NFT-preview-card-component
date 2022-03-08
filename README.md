@@ -2,7 +2,7 @@
 <h1 align="center">NFT Preview card component</h1>
 
 <div align="center">
-   Solution for a challenge from  <a href="https://theoladas.github.io/NFT-preview-card-component-FrontEndMentorChallenge/" target="_blank">Frontend Mentor</a>.
+   Solution for a challenge from  <a href="https://theoladas.github.io/NFT-preview-card-component/" target="_blank">Frontend Mentor</a>.
 </div>
 
 <div align="center">
