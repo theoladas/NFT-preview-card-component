@@ -2,7 +2,7 @@
 <h1 align="center">NFT Preview card component</h1>
 
 <div align="center">
-   Solution for a challenge from  <a href="https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U" target="_blank">Frontend Mentor</a>.
+   Solution for a challenge from  <a href="https://theoladas.github.io/NFT-preview-card-component-FrontEndMentorChallenge/" target="_blank">Frontend Mentor</a>.
 </div>
 
 <div align="center">
@@ -30,6 +30,7 @@
 
 ## Overview
 
+![x](https://user-images.githubusercontent.com/67963370/157205707-8d7c04c3-d7c3-4a67-abfb-ea33fee6b88d.png)
 
 ### Built With
 
